@@ -14,6 +14,16 @@ namespace HW_02
             object obj;
             System.Object obj1;
 
+            int num33 = 200;
+            object obj33 = num33;
+
+            int result = (int)obj33;
+            short result1 = (short)(int)obj33;
+
+
+
+
+
        }
     }
 }
