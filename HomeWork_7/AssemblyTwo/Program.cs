@@ -8,7 +8,7 @@ namespace AssemblyTwo
         {
             AssemblyOne.Motorcycle moto = new AssemblyOne.Motorcycle();
             int maxSpeed = moto.maxSpeedPublic;
-            int engineVolume = moto.maxSpeedPublic;
+            int engineVolume = AssemblyOne.Motorcycle.EngineVolumePublic;
             moto.StartEnginePublic();
         }
     }

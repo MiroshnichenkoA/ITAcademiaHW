@@ -17,6 +17,9 @@ namespace AssemblyOne
         {
             StartEngineProtected();
             StartEnginePrivateProtected();
+            StartEnginePublic();
+            StartEngineInternal();
+            StartEngineProtectedInternal();
         }
     }
 }
